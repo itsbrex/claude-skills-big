@@ -1,245 +1,415 @@
-# Claude Skills Library
+# Claude Skills - 100 Production-Ready AI Skills 🚀
 
-> **47 Production-Ready Claude Code Skills** for developers, marketers, sales teams, and business professionals.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills Count](https://img.shields.io/badge/Skills-47-purple.svg)](https://github.com/onewave-ai/claude-skills)
-[![Package Size](https://img.shields.io/badge/Size-~130KB-green.svg)](https://github.com/onewave-ai/claude-skills)
-
-Created by [OneWave AI](https://www.onewave-ai.com) | [Interactive Showcase](https://www.onewave-ai.com/resources/claude-skills)
-
----
+The most comprehensive collection of Claude Code skills ever created! Build with automation, powered by OneWave AI.
 
 ## 🎯 What's Included
 
-- **32 OneWave AI Custom Skills** - Professional skills for real-world business needs
-- **15 Official Anthropic Skills** - Official skills from Anthropic's repository
-- **Total Package**: ~130KB | **All Free** for personal and commercial use
+**100 Production-Ready Skills** across 15 categories:
+
+- 🗣️ **Communication** (5) - Slack, SMS, email, LinkedIn optimization
+- 💼 **Sales Intelligence** (5) - Deal analysis, call prep, objection handling
+- 📈 **Marketing Automation** (5) - Content repurposing, SEO, email optimization
+- 🎨 **Creative & Design** (4) - Brand consistency, presentations, assets
+- 🧠 **Expert Simulation** (2) - Debates and expert panels
+- 📝 **Content Repurposing** (5) - Multi-format content transformation
+- ⚽ **Sports** (19) - **Most comprehensive sports AI toolkit ever!**
+- 💰 **Finance & Personal** (5) - Portfolio, budget, financial goals
+- 📊 **Sales Leadership** (8) - Forecasting, coaching, territory planning
+- 🤖 **Meta-Skills** (6) - Revolutionary architectural innovations
+- 🎧 **Customer Support** (1) - Knowledge base building
+- ✈️ **Travel** (1) - Itinerary optimization
+- 💪 **Fitness** (2) - Workout programs and training logs
+
+## 🏆 Highlights
+
+### Skill #100: skill-navigator ⭐
+Your intelligent guide to all 99 other skills! Recommends the perfect skill for any task, creates combinations, and helps you discover capabilities you didn't know you had.
+
+### Meta-Skills (Revolutionary!)
+- **conversation-archaeologist** - Builds persistent user context
+- **weak-signal-synthesizer** - Predicts emerging trends
+- **hypothesis-testing-engine** - Automated scientific method
+- **cross-conversation-project-manager** - Stateful memory
+- **skill-composer-studio** - Programmable AI workflows
+- **skill-navigator** - Your personal skill guide
+
+### Sports Skills (19 Total!) ⚽🏀🏈
+Complete toolkit for content, analysis, and training
+
+## 🚀 Quick Start
+
+### Installation Methods
+
+#### Option 1: Install Individual Skills (Recommended)
+
+1. **Extract a skill zip file**:
+   ```bash
+   unzip screenshot-to-code.zip
+   ```
+
+2. **Copy to your Claude skills directory**:
+
+   **For Personal Skills** (available in all projects):
+   ```bash
+   cp -r screenshot-to-code ~/.claude/skills/
+   ```
+
+   **For Project Skills** (specific to one project):
+   ```bash
+   # From your project root
+   cp -r screenshot-to-code .claude/skills/
+   ```
+
+3. **Restart Claude Code** or run:
+   ```bash
+   claude --debug
+   ```
+
+#### Option 2: Install All Skills at Once
+
+**Personal Skills** (available everywhere):
+```bash
+# Extract all zips
+for file in *.zip; do unzip "$file"; done
+
+# Copy all to personal skills directory
+mkdir -p ~/.claude/skills
+cp -r screenshot-to-code reddit-analyzer seo-optimizer meeting-intelligence \
+      financial-parser code-review-pro regex-debugger social-repurposer \
+      contract-analyzer podcast-content-suite ~/.claude/skills/
+```
+
+**Project Skills** (specific project):
+```bash
+# From your project root
+mkdir -p .claude/skills
+cp -r /path/to/claude-skills/* .claude/skills/
+```
+
+## 📚 How Skills Work
+
+### Automatic Activation
+
+Skills are **model-invoked**, meaning Claude automatically decides when to use them based on:
+- The skill's description
+- Your request/question
+- Available context
+
+You don't need to explicitly call them—just ask naturally!
+
+### Examples
+
+**Screenshot to Code**:
+```
+You: "Convert this screenshot to React code"
+Claude: [Automatically uses Screenshot to Code skill]
+```
+
+**SEO Optimizer**:
+```
+You: "Optimize this blog post for 'AI productivity tools'"
+Claude: [Automatically uses SEO Content Optimizer skill]
+```
+
+**Meeting Intelligence**:
+```
+You: "Extract action items from this meeting transcript"
+Claude: [Automatically uses Meeting Intelligence System skill]
+```
+
+## 🎯 Skill Descriptions
+
+### 1. Screenshot to Code
+**Use Cases**:
+- Converting design mockups to code
+- Recreating UI from screenshots
+- Building landing pages from images
+- Prototyping from designs
+
+**Triggers**: screenshot, UI, convert to code, design to code
 
 ---
 
-## 📦 Quick Start
+### 2. Reddit Thread Analyzer
+**Use Cases**:
+- Market research
+- Sentiment analysis
+- Community opinion gathering
+- Competitive intelligence
 
-### Installation
-
-**For Claude Code Desktop:**
-1. Download the `.zip` file for the skill you want
-2. Open Claude Code → Settings → Skills
-3. Click "Install from ZIP"
-4. Select the downloaded `.zip` file
-5. Use with `/skill-name` or natural language
-
-**For Claude.ai Web:**
-1. Download the `.zip` file
-2. Go to [claude.ai](https://claude.ai)
-3. Click Profile → Settings → Skills
-4. Upload the `.zip` file
-5. Enable in conversations
+**Triggers**: Reddit, thread analysis, what does Reddit think, community opinion
 
 ---
 
-## 🌊 OneWave AI Custom Skills (32)
+### 3. SEO Content Optimizer
+**Use Cases**:
+- Blog post optimization
+- Keyword analysis
+- Readability improvement
+- Meta description generation
+- Content gap analysis
 
-### 🎯 Sales & CRM (11 skills)
-
-The most comprehensive sales intelligence suite available for Claude Code.
-
-| Skill | Size | Description |
-|-------|------|-------------|
-| [sales-methodology-implementer](sales/sales-methodology-implementer.zip) | 7.5 KB | Implement MEDDIC, BANT, Sandler, Challenger, SPIN frameworks |
-| [pipeline-health-analyzer](sales/pipeline-health-analyzer.zip) | 7.6 KB | Identify stalled deals, predict close probability |
-| [personalization-at-scale](sales/personalization-at-scale.zip) | 7.6 KB | Generate 500+ unique personalized email first lines |
-| [champion-identifier](sales/champion-identifier.zip) | 7.3 KB | Find and qualify internal champions at target accounts |
-| [lookalike-customer-finder](sales/lookalike-customer-finder.zip) | 4.7 KB | Find 100 companies matching your best customers |
-| [social-selling-content-generator](sales/social-selling-content-generator.zip) | 4.6 KB | Generate 30 LinkedIn posts that attract prospects |
-| [intent-signal-aggregator](sales/intent-signal-aggregator.zip) | 1.9 KB | Track funding, hiring, tech changes, leadership moves |
-| [inbound-lead-qualifier](sales/inbound-lead-qualifier.zip) | 3.0 KB | Score, route, and prioritize inbound leads |
-| [contact-hunter](sales/contact-hunter.zip) | 3.6 KB | Find contact info for people/companies |
-| [cold-email-sequence-generator](sales/cold-email-sequence-generator.zip) | 6.1 KB | Generate 7-14 email sequences with A/B tests |
-| [linkedin-sales-navigator-alt](sales/linkedin-sales-navigator-alt.zip) | 6.4 KB | Build prospect lists from LinkedIn |
-
-### 💻 Development (6 skills)
-
-| Skill | Size | Description |
-|-------|------|-------------|
-| [screenshot-to-code](development/screenshot-to-code.zip) | 2.4 KB | Convert UI screenshots → HTML/CSS/React/Vue code |
-| [code-review-pro](development/code-review-pro.zip) | 2.7 KB | Security, performance & quality analysis |
-| [regex-debugger](development/regex-debugger.zip) | 2.6 KB | Visual regex debugging & explanation |
-| [api-documentation-writer](development/api-documentation-writer.zip) | 3.1 KB | Generate comprehensive API docs with OpenAPI specs |
-| [database-schema-designer](development/database-schema-designer.zip) | 3.1 KB | Design optimized SQL/NoSQL schemas with migrations |
-| [technical-writer](development/technical-writer.zip) | 3.2 KB | Create comprehensive technical documentation |
-
-### 📱 Content & Marketing (7 skills)
-
-| Skill | Size | Description |
-|-------|------|-------------|
-| [seo-optimizer](marketing/seo-optimizer.zip) | 3.2 KB | Keyword analysis, readability & meta generation |
-| [social-repurposer](marketing/social-repurposer.zip) | 2.6 KB | Cross-platform content (Twitter, LinkedIn, Instagram) |
-| [podcast-content-suite](marketing/podcast-content-suite.zip) | 3.8 KB | Podcast → blog, social, newsletter |
-| [reddit-analyzer](marketing/reddit-analyzer.zip) | 2.4 KB | Sentiment analysis & community insights |
-| [landing-page-copywriter](marketing/landing-page-copywriter.zip) | 2.6 KB | High-converting landing page copy |
-| [email-template-generator](marketing/email-template-generator.zip) | 2.0 KB | Professional email templates |
-| [webinar-content-repurposer](marketing/webinar-content-repurposer.zip) | 4.7 KB | Webinar → blog posts, social, emails |
-
-### 💼 Business & Productivity (5 skills)
-
-| Skill | Size | Description |
-|-------|------|-------------|
-| [meeting-intelligence](business/meeting-intelligence.zip) | 2.3 KB | Extract decisions, action items & blockers |
-| [financial-parser](business/financial-parser.zip) | 2.4 KB | Parse invoices, receipts & statements |
-| [contract-analyzer](business/contract-analyzer.zip) | 3.7 KB | Review contracts for risks & red flags |
-| [job-application-optimizer](business/job-application-optimizer.zip) | 6.2 KB | Tailor resume to job posting |
-| [customer-review-aggregator](business/customer-review-aggregator.zip) | 3.3 KB | Aggregate reviews with sentiment analysis |
-
-### 📊 Data & Analytics (3 skills)
-
-| Skill | Size | Description |
-|-------|------|-------------|
-| [csv-excel-merger](data/csv-excel-merger.zip) | 3.1 KB | Merge multiple CSV/Excel files |
-| [executive-dashboard-generator](data/executive-dashboard-generator.zip) | 5.8 KB | Turn spreadsheets into executive reports |
-| [color-palette-extractor](data/color-palette-extractor.zip) | 3.5 KB | Extract color palettes from images |
+**Triggers**: SEO, optimize content, keyword, meta description, search ranking
 
 ---
 
-## 🏢 Official Anthropic Skills (15)
+### 4. Meeting Intelligence System
+**Use Cases**:
+- Meeting summarization
+- Action item extraction
+- Decision tracking
+- Follow-up email generation
+- Blocker identification
 
-### 🎨 Creative & Design (5 skills)
-- **algorithmic-art** - Generate art using p5.js
-- **canvas-design** - Create visual art in PNG/PDF
-- **slack-gif-creator** - Produce animated GIFs
-- **brand-guidelines** - Apply Anthropic's brand colors
-- **theme-factory** - Style artifacts with preset themes
-
-### 💻 Development & Technical (4 skills)
-- **artifacts-builder** - Build complex HTML artifacts
-- **mcp-builder** - Create MCP servers
-- **webapp-testing** - Test web apps with Playwright
-- **skill-creator** - Guide for creating new skills
-
-### 📄 Document Skills (4 skills)
-- **docx** - Create/edit Word documents
-- **pdf** - PDF manipulation & forms
-- **pptx** - Create PowerPoint presentations
-- **xlsx** - Excel spreadsheet operations
-
-### 🛠️ Meta Skills (2 skills)
-- **internal-comms** - Write status reports
-- **template-skill** - Starting template for development
-
-See [official-anthropic-skills/](official-anthropic-skills/) directory for details.
+**Triggers**: meeting notes, transcript, action items, meeting summary
 
 ---
 
-## 🎯 Skills by Use Case
+### 5. Financial Document Parser
+**Use Cases**:
+- Expense tracking
+- Invoice processing
+- Receipt organization
+- Financial reporting
+- Tax preparation
 
-### For Sales Teams
-All 11 sales skills cover the entire sales process from prospecting to close:
-- Prospecting: lookalike-customer-finder, linkedin-sales-navigator-alt, contact-hunter
-- Outreach: personalization-at-scale, cold-email-sequence-generator, social-selling-content-generator
-- Qualification: inbound-lead-qualifier, champion-identifier, intent-signal-aggregator
-- Process: sales-methodology-implementer, pipeline-health-analyzer
-
-### For Developers
-- screenshot-to-code, code-review-pro, regex-debugger
-- api-documentation-writer, database-schema-designer, technical-writer
-- artifacts-builder, mcp-builder, webapp-testing
-
-### For Marketers
-- seo-optimizer, social-repurposer, podcast-content-suite
-- landing-page-copywriter, email-template-generator
-- webinar-content-repurposer, customer-review-aggregator
-
-### For Business Professionals
-- meeting-intelligence, contract-analyzer, financial-parser
-- job-application-optimizer, executive-dashboard-generator
-- docx, pdf, pptx, xlsx
+**Triggers**: invoice, receipt, bank statement, expense, parse financial
 
 ---
 
-## 📖 Documentation
+### 6. Code Review Pro
+**Use Cases**:
+- Security vulnerability scanning
+- Performance optimization
+- Code quality assessment
+- Best practice validation
+- Refactoring suggestions
 
-Each skill includes:
-- **SKILL.md** - Complete documentation with examples
-- **Installation instructions** - Step-by-step setup
-- **Use cases** - Real-world applications
-- **Examples** - Copy-paste templates
-
----
-
-## 🚀 Interactive Showcase
-
-Explore all skills with our interactive showcase:
-👉 **[onewave-ai.com/resources/claude-skills](https://www.onewave-ai.com/resources/claude-skills)**
-
-Features:
-- 🔍 Search and filter by category/source
-- 📺 Live terminal demos
-- 📱 Responsive design
-- 🎨 Beautiful UI with glassmorphism
+**Triggers**: code review, review code, security audit, performance analysis
 
 ---
 
-## 🤝 Contributing
+### 7. Regex Visual Debugger
+**Use Cases**:
+- Regex debugging
+- Pattern explanation
+- Test case generation
+- Regex optimization
+- Cross-language conversion
 
-We welcome contributions! To add a new skill:
-
-1. Fork this repository
-2. Create your skill following our [skill template](official-anthropic-skills/template-skill/)
-3. Test thoroughly
-4. Submit a pull request
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
----
-
-## 📄 License
-
-**OneWave AI Skills**: MIT License - Free for personal and commercial use
-
-**Official Anthropic Skills**: See individual skill licenses in [official-anthropic-skills/](official-anthropic-skills/)
+**Triggers**: regex, regular expression, pattern matching, why doesn't my regex work
 
 ---
 
-## 💬 Support
+### 8. Social Media Content Repurposer
+**Use Cases**:
+- Cross-platform content adaptation
+- Social media marketing
+- Content distribution
+- Platform-specific optimization
 
-- **Issues**: [GitHub Issues](https://github.com/onewave-ai/claude-skills/issues)
-- **Website**: [onewave-ai.com](https://www.onewave-ai.com)
-- **Email**: hello@onewave-ai.com
-- **LinkedIn**: [linkedin.com/company/onewave-ai](https://linkedin.com/company/onewave-ai)
-
----
-
-## 🌟 About OneWave AI
-
-OneWave AI helps businesses implement production AI solutions. We're Florida-based AI consultants serving clients nationwide.
-
-**Services:**
-- AI Strategy & Planning
-- Custom AI Solutions
-- Team Training
-- Implementation Support
-
-Learn more at [onewave-ai.com](https://www.onewave-ai.com)
+**Triggers**: repurpose content, Twitter thread, LinkedIn post, social media
 
 ---
 
-## 📊 Stats
+### 9. Contract Analyzer
+**Use Cases**:
+- Contract review
+- Risk assessment
+- Term extraction
+- Legal document analysis
+- Negotiation preparation
 
-- **47** total skills
-- **32** OneWave AI custom skills
-- **15** Official Anthropic skills
-- **~130KB** total package size
-- **7** categories covered
-- **200+** use cases addressed
+**Triggers**: review contract, NDA, agreement, legal document, concerning clauses
 
 ---
 
-<p align="center">
-  Made with ❤️ in Florida by <a href="https://www.onewave-ai.com">OneWave AI</a>
-</p>
+### 10. Podcast to Content Suite
+**Use Cases**:
+- Podcast marketing
+- Content repurposing
+- Blog post creation
+- Social media content
+- Newsletter generation
 
-<p align="center">
-  <a href="https://www.onewave-ai.com/resources/claude-skills">Interactive Showcase</a> •
-  <a href="https://github.com/onewave-ai/claude-skills/issues">Report Issue</a> •
-  <a href="https://www.onewave-ai.com/contact">Contact Us</a>
-</p>
+**Triggers**: podcast transcript, repurpose podcast, show notes, podcast to blog
+
+## 🔧 Troubleshooting
+
+### Claude Isn't Using My Skill
+
+1. **Check file location**:
+   - Personal: `~/.claude/skills/skill-name/SKILL.md`
+   - Project: `.claude/skills/skill-name/SKILL.md`
+
+2. **Verify YAML syntax**:
+   ```yaml
+   ---
+   name: Skill Name
+   description: Clear description...
+   ---
+   ```
+   - Must have opening and closing `---`
+   - No tabs (use spaces)
+   - Valid YAML format
+
+3. **Check description specificity**:
+   - Include activation keywords
+   - Be explicit about use cases
+   - Mention relevant terms users would say
+
+4. **Debug mode**:
+   ```bash
+   claude --debug
+   ```
+   This shows skill loading errors.
+
+### Skills Load But Don't Activate
+
+**Make your request more explicit**:
+
+❌ Bad: "Look at this"
+✅ Good: "Optimize this blog post for SEO"
+
+❌ Bad: "Help with this"
+✅ Good: "Review this contract for concerning clauses"
+
+## 📖 Documentation Format
+
+Each skill uses this structure:
+
+```
+skill-name/
+└── SKILL.md (required)
+```
+
+**SKILL.md format**:
+```yaml
+---
+name: Your Skill Name
+description: Brief description with activation triggers
+---
+
+# Your Skill Name
+
+## When to Use This Skill
+[Explicit activation conditions]
+
+## Instructions
+[Step-by-step guidance for Claude]
+
+## Output Format
+[Structured output template]
+
+## Examples
+[Concrete usage examples]
+
+## Best Practices
+[Guidelines for optimal results]
+```
+
+## 🎨 Customization
+
+### Modify Skills
+
+1. Extract the skill zip
+2. Edit `SKILL.md`
+3. Test with `claude --debug`
+4. Re-install to skills directory
+
+### Create Your Own Skills
+
+Use these as templates! Key elements:
+
+1. **Clear description** with activation triggers
+2. **Detailed instructions** (step-by-step)
+3. **Output format** (structured templates)
+4. **Examples** (show, don't just tell)
+5. **Best practices** (edge cases, optimizations)
+
+## 🤝 Sharing Skills
+
+### With Your Team
+
+**Method 1**: Project Skills (Recommended)
+```bash
+# Commit to git
+git add .claude/skills/
+git commit -m "Add Claude skills"
+git push
+```
+Team members automatically get skills after pulling.
+
+**Method 2**: Share Zip Files
+Send `.zip` files to teammates who can install individually.
+
+### Creating a Plugin
+
+For wider distribution, package as a Claude Code plugin. See [plugin documentation](https://docs.claude.com/en/docs/claude-code/plugins.md).
+
+## 📈 Usage Tips
+
+### Combining Skills
+
+Skills can work together! Example:
+
+1. Use **Code Review Pro** to analyze code
+2. Use **Meeting Intelligence** to extract action items from the review discussion
+3. Use **Social Media Repurposer** to share learnings as Twitter thread
+
+### Best Practices
+
+1. **Be specific** in your requests
+2. **Include context** (file type, goals, constraints)
+3. **Iterate** - skills can refine their output
+4. **Provide feedback** - Claude learns from corrections
+
+### Example Workflows
+
+**Content Creator Workflow**:
+```
+Podcast → Podcast to Content Suite → Social Repurposer → SEO Optimizer
+```
+
+**Developer Workflow**:
+```
+Screenshot → Screenshot to Code → Code Review Pro
+```
+
+**Business Workflow**:
+```
+Meeting → Meeting Intelligence → Contract Analyzer → Financial Parser
+```
+
+## 📝 License
+
+These skills are provided as-is for use with Claude Code. Modify and share freely.
+
+## 🐛 Issues & Feedback
+
+If a skill isn't working as expected:
+
+1. Check the troubleshooting section above
+2. Run `claude --debug` to see loading errors
+3. Verify YAML syntax and file locations
+4. Make your request more explicit
+
+## 🌟 Contributing
+
+Feel free to:
+- Modify these skills for your needs
+- Create variations for specific use cases
+- Share improvements with your team
+- Build new skills using these as templates
+
+## 📚 Additional Resources
+
+- [Claude Code Skills Documentation](https://docs.claude.com/en/docs/claude-code/skills.md)
+- [Claude Code Plugins](https://docs.claude.com/en/docs/claude-code/plugins.md)
+- [Claude Code Docs](https://docs.claude.com/en/docs/claude-code/)
+
+---
+
+**Ready to supercharge Claude Code? Install a skill and start using it!** 🚀
+
+No explicit commands needed—just ask naturally and Claude will know when to use each skill.
