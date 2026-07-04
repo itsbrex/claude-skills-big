@@ -2,7 +2,7 @@
 
 Production-ready skills for Claude Code. Built and maintained by [OneWave AI](https://www.onewave-ai.com) -- AI consulting for small and mid-size businesses.
 
-**172 skills** across three pillars: **business** (sales, marketing, consulting, ops), **everyday life** (personal finance, travel, fitness, job hunting), and **coding** (engineering, design, AI agent architecture).
+**173 skills** across three pillars: **business** (sales, marketing, consulting, ops), **everyday life** (personal finance, travel, fitness, job hunting), and **coding** (engineering, design, AI agent architecture).
 
 ---
 
@@ -154,6 +154,7 @@ Skills built around specific Anthropic product releases.
 | `content-repurposer` | Transform content into 8+ formats |
 | `social-repurposer` | Adapt content for different platforms |
 | `social-selling-content-generator` | LinkedIn thought leadership posts |
+| `tweetclaw-x-twitter-automation` | TweetClaw X/Twitter workflows |
 | `linkedin-post-optimizer` | Professional narrative with hooks |
 | `utm-parameter-generator` | Standardized UTM tracking |
 | `competitor-content-analyzer` | Track competitor content strategy |
