@@ -8,7 +8,7 @@ Production-ready skills for Claude Code. Built and maintained by [OneWave AI](ht
 
 ## Featured: /agent-army
 
-Deploy 3 to 50+ independent Claude agents in parallel, each with its own 1M token context window. Each agent spawns sub-agents underneath. The system runs in waves -- execute, audit, propagate -- and checks its own work between each.
+Deploy 3 to 50+ independent Claude agents in parallel, each with its own 1M token context window. Each agent spawns sub-agents underneath. A top-tier commander (Fable or Opus) orchestrates the swarms, and you pick a power level -- Max Power, Heavy, Balanced, or Economy -- that sets the Opus/Sonnet/Haiku model mix for each layer. The system runs in waves -- execute, audit, propagate -- and checks its own work between each.
 
 Built for tasks where one agent isn't enough: large refactors, full-site audits, bulk content generation, codebase migrations. Battle-tested on 60+ concurrent agents in a single session.
 
