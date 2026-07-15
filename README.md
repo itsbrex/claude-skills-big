@@ -2,7 +2,9 @@
 
 Production-ready skills for Claude Code. Built and maintained by [OneWave AI](https://www.onewave-ai.com) -- AI consulting for small and mid-size businesses.
 
-**173 skills** across three pillars: **business** (sales, marketing, consulting, ops), **everyday life** (personal finance, travel, fitness, job hunting), and **coding** (engineering, design, AI agent architecture).
+**194 skills** across three pillars: **business** (sales, marketing, consulting, ops), **everyday life** (personal finance, travel, fitness, job hunting), and **coding** (engineering, design, AI agent architecture).
+
+Companion repo: **[Open Agent Stack](https://github.com/OneWave-AI/open-agent-stack)** -- installable plugins, managed agents, multi-agent orchestrators, and 7 design-token themes. Skills here stay single-file and zero-dependency; anything with a manifest, a team, or a build step lives there.
 
 ---
 
@@ -54,12 +56,33 @@ Skills built around specific Anthropic product releases.
 |-------|-------------|
 | `overnight-repo-auditor` | Uses Managed Agents (14.5hr runtime) for autonomous overnight codebase audits |
 | `multi-agent-client-onboarding` | Agent SDK: 3 parallel agents for client assessment |
-| `cowork-deal-room` | Cowork-style multi-step deal room document analysis |
 | `gmail-to-crm-pipeline` | MCP Connectors: Gmail to CRM lead qualification pipeline |
 | `full-codebase-migrator` | 1M context window: ingest entire codebases for migration planning |
 | `claude-design-system-architect` | Generate a premium design system (tokens, type, motion) exported to Tailwind/CSS |
 | `claude-landing-composer` | Build premium animated landing pages in Next.js + Framer Motion, anti-template |
 | `claude-design-critic` | Audit a UI and de-AI it — design + copy fixes toward editorial/premium |
+
+### Claude Cowork
+Folder-first knowledge-worker workflows built for Claude Cowork -- now with cloud sessions, scheduled tasks that run with no device online, and Microsoft 365 write tools (July 2026).
+
+| Skill | Description |
+|-------|-------------|
+| `cowork-deal-room` | Multi-step deal room due diligence -- contracts, financials, risk scoring |
+| `cowork-folder-organizer` | Turn a messy folder or shared drive into an organized, indexed workspace with an undo trail |
+| `cowork-inbox-triage` | Daily inbox sweep -- classify, draft replies in your voice, queue follow-ups; scheduled-task ready |
+| `cowork-hiring-screener` | Score a folder of resumes against the JD -- ranked shortlist with evidence, interview kits, drafts |
+| `cowork-expense-audit` | Reconcile receipts to statements, categorize, flag policy violations, output the expense report |
+| `cowork-rfp-response` | Shred an RFP into a compliance matrix, mine your past proposals, draft the response honestly |
+| `cowork-invoice-chaser` | AR aging report plus escalating dunning drafts matched to invoice age; weekly scheduled task |
+| `cowork-contract-renewal-radar` | Extract every auto-renew clause and notice window, calendar the real decision deadlines |
+| `cowork-data-room-builder` | Prep YOUR data room for a raise or acquisition -- checklist, gap report, organized structure |
+| `cowork-vendor-comparison` | Normalize vendor quotes into one matrix -- true TCO, buried terms, negotiation leverage |
+| `cowork-qbr-builder` | Client folder -> QBR with value receipts, honest misses, health read, expansion asks |
+| `cowork-sop-writer` | Turn a process walkthrough into a clean SOP -- steps, decision points, tribal knowledge captured |
+| `cowork-calendar-defrag` | Measure meeting load and fragmentation, propose cuts and focus blocks, draft the decline messages |
+| `cowork-tax-prep-organizer` | Sweep folders for tax docs, build the CPA-ready package and the missing-form chase list |
+| `cowork-medical-bill-auditor` | Match bills to EOBs, catch overbilling and unsubmitted claims, draft dispute letters |
+| `cowork-home-inventory` | Photos + receipts -> insurance-grade home inventory with values, serials, and the gap list |
 
 ### Sales and Revenue
 | Skill | Description |
@@ -127,13 +150,28 @@ Skills built around specific Anthropic product releases.
 | `regex-debugger` | Visual regex breakdown and debugging |
 | `performance-profiler` | Application performance profiling |
 | `api-endpoint-scaffolder` | REST API endpoint generation |
-| `responsive-layout-builder` | CSS Grid, Flexbox, container queries |
 | `react-component-generator` | React components with TypeScript and a11y |
+| `database-schema-designer` | Optimized schemas with ERD diagrams |
+| `landing-page-optimizer` | Conversion and performance optimization |
+
+### Design Systems and UI
+Build, install, and enforce design systems. Pairs with the 7 ready-made design-token themes in [Open Agent Stack `design-styles/`](https://github.com/OneWave-AI/open-agent-stack/tree/main/design-styles) -- aurora-mesh, cirrus, liquid-glass, mono-brutalist, neo-terminal, sand-terra, tidal.
+
+| Skill | Description |
+|-------|-------------|
+| `design-style-installer` | Install a complete token theme (from Open Agent Stack or local tokens.json) and repaint the project |
+| `design-tokens-sync` | Find and fix token drift -- stale copies, hardcoded values, orphans -- plus a CI guard |
+| `motion-language-designer` | Duration/easing scales, choreography rules, signature moves -> Framer Motion + CSS |
+| `dark-mode-converter` | Real dark mode via semantic tokens and elevation logic, not naive inversion |
+| `typography-scale-builder` | Fluid type scale with per-step line-height/tracking, roles, vertical rhythm |
 | `design-system-generator` | Design tokens, components, documentation |
 | `css-animation-creator` | Professional animations and micro-interactions |
-| `database-schema-designer` | Optimized schemas with ERD diagrams |
+| `responsive-layout-builder` | CSS Grid, Flexbox, container queries |
 | `screenshot-to-code` | Convert UI screenshots to working code |
-| `landing-page-optimizer` | Conversion and performance optimization |
+| `color-palette-extractor` | Extract palettes from images or sites -- HEX/RGB/Tailwind/CSS variables |
+| `font-pairing-suggester` | Font pairings with hierarchy and loading strategy |
+| `brand-consistency-checker` | Scan documents and slides for off-brand colors, fonts, logos |
+| `accessibility-auditor` | WCAG compliance audit and fixes |
 
 ### Security and Compliance
 | Skill | Description |
