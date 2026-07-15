@@ -222,6 +222,8 @@ Claude Code loads this as a system prompt when the skill is invoked. Only `name`
 
 [OneWave AI](https://www.onewave-ai.com) is a boutique AI consulting firm based in Florida, specializing in Claude and the Anthropic ecosystem. We help small and mid-size businesses implement AI that ships real results -- from Claude for Enterprise deployment to custom agent architecture.
 
+- [Claude Bootcamp & Team Training](https://www.onewave-ai.com/claude-bootcamp) -- in-person and virtual bootcamps, trainings, and workshops built on your real workflows
+- [AI Training for Your Team](https://www.onewave-ai.com/ai-training) -- custom Claude + ChatGPT curriculum, then we deploy the tools you were trained on
 - [Claude Consulting](https://www.onewave-ai.com/claude-consulting)
 - [Services](https://www.onewave-ai.com/services)
 - [Blog](https://www.onewave-ai.com/blog)
