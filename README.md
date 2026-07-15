@@ -21,14 +21,19 @@ Built for tasks where one agent isn't enough: large refactors, full-site audits,
 ## Getting Started
 
 ```bash
-# Install a single skill
+# Claude Code: install a single skill
 claude skill install OneWave-AI/claude-skills/<skill-name>
 
 # Or clone the full library
 git clone https://github.com/OneWave-AI/claude-skills.git ~/.claude/skills
+
+# OpenAI Codex CLI (same files, unchanged)
+git clone https://github.com/OneWave-AI/claude-skills.git ~/.codex/skills
 ```
 
-Each skill is a self-contained `SKILL.md` file that Claude Code loads as a system prompt. No dependencies, no build step.
+Each skill is a self-contained `SKILL.md` file. No dependencies, no build step.
+
+These skills follow the [Agent Skills open standard](https://agentskills.io), so the same files work unchanged in **Claude Code, OpenAI Codex CLI, Gemini CLI, Cursor**, and 30+ other tools -- point your tool's skills directory at the clone and go.
 
 ---
 
