@@ -2,7 +2,7 @@
 
 Production-ready skills for Claude Code. Built and maintained by [OneWave AI](https://www.onewave-ai.com) -- AI consulting for small and mid-size businesses.
 
-**194 skills** across three pillars: **business** (sales, marketing, consulting, ops), **everyday life** (personal finance, travel, fitness, job hunting), and **coding** (engineering, design, AI agent architecture).
+**204 skills** across three pillars: **business** (sales, marketing, consulting, ops), **everyday life** (personal finance, travel, fitness, job hunting), and **coding** (engineering, design, AI agent architecture).
 
 Companion repo: **[Open Agent Stack](https://github.com/OneWave-AI/open-agent-stack)** -- installable plugins, managed agents, multi-agent orchestrators, and 7 design-token themes. Skills here stay single-file and zero-dependency; anything with a manifest, a team, or a build step lives there.
 
@@ -192,7 +192,6 @@ Build, install, and enforce design systems. Pairs with the 7 ready-made design-t
 | `content-repurposer` | Transform content into 8+ formats |
 | `social-repurposer` | Adapt content for different platforms |
 | `social-selling-content-generator` | LinkedIn thought leadership posts |
-| `tweetclaw-x-twitter-automation` | TweetClaw X/Twitter workflows |
 | `linkedin-post-optimizer` | Professional narrative with hooks |
 | `utm-parameter-generator` | Standardized UTM tracking |
 | `competitor-content-analyzer` | Track competitor content strategy |
@@ -206,6 +205,9 @@ Build, install, and enforce design systems. Pairs with the 7 ready-made design-t
 | `product-launch-war-room` | Adversarial GTM war room: go/no-go, risk register, phased rollout, kill criteria |
 | `hyperframes-ad-director` | Brief → finished HyperFrames video ad: hook, script, storyboard, scenes, cuts |
 | `hyperframes-sales-demo-builder` | Personalized product-demo videos in HyperFrames for a specific account |
+| `hyperframes-explainer-builder` | URL or docs → tight 60-90s product explainer with walkthrough scenes and VO |
+| `hyperframes-testimonial-builder` | Real reviews and case-study results → social-proof videos: spotlights, review walls, proof reels |
+| `hyperframes-local-promo` | 15-30s local-business promos: menu drops, offers, events, hiring clips |
 
 ### Strategy and Finance
 | Skill | Description |
@@ -234,6 +236,20 @@ Build, install, and enforce design systems. Pairs with the 7 ready-made design-t
 | `doc-coauthoring` | Structured documentation co-authoring workflow |
 | `job-application-optimizer` | Tailor resumes to job postings |
 | `raise-negotiation-prep` | Salary research and negotiation scripts |
+
+### Small Business Essentials
+The problems that actually kill small businesses -- cash, margins, visibility, people, the lease.
+
+| Skill | Description |
+|-------|-------------|
+| `cash-flow-forecaster` | 13-week rolling cash forecast from bank exports and AR/AP -- crunch weeks circled with the levers to pull |
+| `job-profitability-analyzer` | Which clients and jobs actually make money -- loaded labor costs, effective hourly rate per client |
+| `local-seo-optimizer` | Win the Google local pack -- Business Profile audit, review engine, NAP sweep, location pages |
+| `review-response-writer` | Respond to every review in the owner's voice -- gracious 5-stars, masterful 1-stars, escalation flags |
+| `employee-handbook-builder` | Plain-English handbook that matches how the business actually runs, with state-law check flags |
+| `inventory-reorder-planner` | Sales history -> reorder points, this week's purchase list, and the dead-stock cash report |
+| `job-post-writer` | Job posts the right person actually applies to -- pruned requirements, honest sell, pay handled |
+| `commercial-lease-analyzer` | True all-in occupancy cost, the small-tenant trap clauses, and the negotiation ask list |
 
 ---
 
